@@ -31,7 +31,7 @@ sequelize.sync().then(function () {
         }
     });
     
-    
+    /*
     Todo.create({
         description: 'Go get some food',
         completed: false
@@ -63,5 +63,6 @@ sequelize.sync().then(function () {
     }).catch(function (e) {
         console.log(e);
     });
+    */
     
 });
